@@ -1,19 +1,31 @@
-<ion-menu [content]="content">
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
+<ion-menu [content]="mainContent">
+  <ion-content id="side-menu21" style="background-color:#00D69A;">
+    <div class="spacer" style="width:248px;height:25px;" id="menu-spacer3"></div>
+    <img src="assets/img/niH0DewKTy6ZH6cyKOSz_perfil.png" style="display:block;width:23%;height:auto;margin-left:auto;margin-right:auto;" />
+    <div class="spacer" style="width:248px;height:25px;" id="menu-spacer23"></div>
+    <ion-list id="menu-list1">
+      <ion-item color="balanced" menuClose="" on-click="goToMiPerfil()" id="menu-list-item1">
+        Mi perfil
+        <ion-icon name="person" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="balanced" menuClose="" on-click="goToTriviauno()" id="menu-list-item2">
+        Trivia
+        <ion-icon name="game-controller-a" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="balanced" menuClose="" on-click="goToPuntosDeReciclaje()" id="menu-list-item3">
+        ¿Donde reciclar?
+        <ion-icon name="map" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="balanced" menuClose="" on-click="goToCamiones()" id="menu-list-item10">
+        ¿Cuando pasa el carro ?
+        <ion-icon name="subway" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="balanced" menuClose="" on-click="goToCamiones()" id="menu-list-item12">
+        Escanear codigos QR
+        <ion-icon name="camera" item-right></ion-icon>
+      </ion-item>
     </ion-list>
   </ion-content>
-
 </ion-menu>
 
-<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
-<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
