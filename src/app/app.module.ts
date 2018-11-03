@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { MiPerfilPage } from '../pages/mi-perfil/mi-perfil';
 import { LoginPage } from '../pages/login/login';
+<<<<<<< HEAD
 import { GanadorPage } from '../pages/ganador/ganador';
 import { GanadordosPage } from '../pages/ganadordos/ganadordos';
 import { GanadortresPage } from '../pages/ganadortres/ganadortres';
@@ -16,6 +17,12 @@ import { PuntosDeReciclajePage } from '../pages/puntos-de-reciclaje/puntos-de-re
 import { CamionesPage } from '../pages/camiones/camiones';
 import { PremiosPage } from '../pages/premios/premios';
 import { EscanerPage } from '../pages/escaner/escaner';
+=======
+import { TriviaPage } from '../pages/trivia/trivia';
+import { Trivia2Page } from '../pages/trivia2/trivia2';
+import { PuntosDeReciclajePage } from '../pages/puntos-de-reciclaje/puntos-de-reciclaje';
+import { CamionesPage } from '../pages/camiones/camiones';
+>>>>>>> 5c537ac18a178c56174f2d1acf4f99a5455e8921
 import { SignupPage } from '../pages/signup/signup';
 
 
@@ -27,6 +34,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MiPerfilPage,
     LoginPage,
+<<<<<<< HEAD
     GanadorPage,
     GanadordosPage,
     GanadortresPage,
@@ -39,6 +47,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CamionesPage,
     PremiosPage,
     EscanerPage,
+=======
+    TriviaPage,
+    Trivia2Page,
+    PuntosDeReciclajePage,
+    CamionesPage,
+>>>>>>> 5c537ac18a178c56174f2d1acf4f99a5455e8921
     SignupPage
   ],
   imports: [
@@ -50,6 +64,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     MiPerfilPage,
     LoginPage,
+<<<<<<< HEAD
     GanadorPage,
     GanadordosPage,
     GanadortresPage,
@@ -62,6 +77,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CamionesPage,
     PremiosPage,
     EscanerPage,
+=======
+    TriviaPage,
+    Trivia2Page,
+    PuntosDeReciclajePage,
+    CamionesPage,
+>>>>>>> 5c537ac18a178c56174f2d1acf4f99a5455e8921
     SignupPage
   ],
   providers: [

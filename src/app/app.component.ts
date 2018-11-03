@@ -4,12 +4,16 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { MiPerfilPage } from '../pages/mi-perfil/mi-perfil';
+<<<<<<< HEAD
 import { TriviaunoPage } from '../pages/triviauno/triviauno';
 import { IncorrectoPage } from '../pages/incorrecto/incorrecto';
 import { GanadorPage } from '../pages/ganador/ganador';
 import { TriviadosPage } from '../pages/triviados/triviados';
 import { GanadordosPage } from '../pages/ganadordos/ganadordos';
 import { TriviatresPage } from '../pages/triviatres/triviatres';
+=======
+import { TriviaPage } from '../pages/trivia/trivia';
+>>>>>>> 5c537ac18a178c56174f2d1acf4f99a5455e8921
 import { PuntosDeReciclajePage } from '../pages/puntos-de-reciclaje/puntos-de-reciclaje';
 import { CamionesPage } from '../pages/camiones/camiones';
 
@@ -36,6 +40,7 @@ export class MyApp {
   goToMiPerfil(params){
     if (!params) params = {};
     this.navCtrl.setRoot(MiPerfilPage);
+<<<<<<< HEAD
   }goToTriviauno(params){
     if (!params) params = {};
     this.navCtrl.setRoot(TriviaunoPage);
@@ -54,6 +59,11 @@ export class MyApp {
   }goToTriviatres(params){
     if (!params) params = {};
     this.navCtrl.setRoot(TriviatresPage);
+=======
+  }goToTrivia(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(TriviaPage);
+>>>>>>> 5c537ac18a178c56174f2d1acf4f99a5455e8921
   }goToPuntosDeReciclaje(params){
     if (!params) params = {};
     this.navCtrl.setRoot(PuntosDeReciclajePage);
